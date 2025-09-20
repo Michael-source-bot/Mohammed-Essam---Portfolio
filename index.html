@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohamed Essam Mahmoud - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#6366f1">
+    <meta name="description" content="Mohamed Essam Mahmoud - Creative Developer & Digital Innovator. Born July 19, 2006. Portfolio showcasing modern web development and design projects.">
+    <meta name="keywords" content="portfolio, web development, design, Mohamed Essam, frontend, backend, UI/UX">
+    <meta name="author" content="Mohamed Essam Mahmoud">
+    <meta property="og:title" content="Mohamed Essam Mahmoud - Portfolio">
+    <meta property="og:description" content="Creative Developer & Digital Innovator showcasing modern web development and design projects.">
+    <meta property="og:image" content="Pictures/Me.png">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mohamed Essam Mahmoud - Portfolio">
+    <meta name="twitter:description" content="Creative Developer & Digital Innovator showcasing modern web development and design projects.">
+    <meta name="twitter:image" content="Pictures/Me.png">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loader" id="loader">
+        <div class="loader-content">
+            <div class="loader-spinner"></div>
+            <div class="loader-text" data-en="Loading..." data-ar="جاري التحميل...">Loading...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text" data-en="Mohamed Essam" data-ar="محمد عصام">Mohamed Essam</span>
+            </div>
+            <ul class="nav-menu" id="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link" data-en="Home" data-ar="الرئيسية">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link" data-en="About" data-ar="نبذة">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link" data-en="Projects" data-ar="المشاريع">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link" data-en="Skills" data-ar="المهارات">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#testimonials" class="nav-link" data-en="Testimonials" data-ar="الشهادات">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-controls">
+                <button class="theme-toggle" id="theme-toggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="background-animation">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="home-content">
+                <div class="profile-section">
+                    <div class="profile-image-container">
+                        <div class="profile-frame">
+                            <img src="Pictures/Me.png" alt="Mohamed Essam Mahmoud" class="profile-image" data-en="Mohamed Essam Mahmoud" data-ar="محمد عصام محمود">
+                            <div class="profile-overlay"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="intro-section">
+                    <h1 class="main-title">
+                        <span class="title-line" data-en="Mohamed Essam Mahmoud" data-ar="محمد عصام محمود">Mohamed Essam Mahmoud</span>
+                    </h1>
+                    <p class="birth-date" data-en="Born: July 19, 2006" data-ar="تاريخ الميلاد: 19 يوليو 2006">Born: July 19, 2006</p>
+                    <p class="intro-text" data-en="Creative Developer & Digital Innovator" data-ar="مطور مبدع ومبتكر رقمي">Creative Developer & Digital Innovator</p>
+                    <p class="description" data-en="Passionate about creating exceptional digital experiences through innovative design and cutting-edge technology." data-ar="شغوف بإنشاء تجارب رقمية استثنائية من خلال التصميم المبتكر والتكنولوجيا المتطورة.">Passionate about creating exceptional digital experiences through innovative design and cutting-edge technology.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary" data-en="View My Work" data-ar="شاهد أعمالي">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</a>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="About Me" data-ar="نبذة عني">About Me</h2>
+                <p class="section-subtitle" data-en="Get to know me better" data-ar="تعرف علي أكثر">Get to know me better</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description" data-en="I'm a passionate developer and designer with a keen eye for detail and a love for creating beautiful, functional digital experiences. Born in 2006, I bring fresh perspectives and modern approaches to every project I work on." data-ar="أنا مطور ومصمم شغوف بعين حريصة على التفاصيل وحب لإنشاء تجارب رقمية جميلة وعملية. ولدت في عام 2006، أحضر وجهات نظر جديدة ومناهج حديثة لكل مشروع أعمل عليه.">I'm a passionate developer and designer with a keen eye for detail and a love for creating beautiful, functional digital experiences. Born in 2006, I bring fresh perspectives and modern approaches to every project I work on.</p>
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <div class="stat-number">15</div>
+                            <div class="stat-label" data-en="Projects Completed" data-ar="مشروع مكتمل">Projects Completed</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label" data-en="Years Experience" data-ar="سنوات خبرة">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label" data-en="Client Satisfaction" data-ar="رضا العملاء">Client Satisfaction</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="My Projects" data-ar="مشاريعي">My Projects</h2>
+                <p class="section-subtitle" data-en="A showcase of my recent work" data-ar="عرض لأعمالي الأخيرة">A showcase of my recent work</p>
+            </div>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all" data-en="All" data-ar="الكل">All</button>
+                <button class="filter-btn" data-filter="web" data-en="Web Development" data-ar="تطوير الويب">Web Development</button>
+                <button class="filter-btn" data-filter="design" data-en="Design" data-ar="التصميم">Design</button>
+                <button class="filter-btn" data-filter="mobile" data-en="Mobile" data-ar="موبايل">Mobile</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Neural Network Dashboard" data-ar="لوحة الشبكات العصبية">Neural Network Dashboard</h3>
+                        <p class="project-description" data-en="AI-powered dashboard for visualizing and training neural networks with real-time performance metrics." data-ar="لوحة تحكم مدعومة بالذكاء الاصطناعي لتصور وتدريب الشبكات العصبية مع مقاييس الأداء في الوقت الفعلي.">AI-powered dashboard for visualizing and training neural networks with real-time performance metrics.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">TensorFlow.js</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">WebGL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Cybersecurity Scanner" data-ar="ماسح الأمان السيبراني">Cybersecurity Scanner</h3>
+                        <p class="project-description" data-en="Advanced vulnerability scanner with penetration testing tools and security assessment reports." data-ar="ماسح ثغرات متقدم مع أدوات اختبار الاختراق وتقارير تقييم الأمان.">Advanced vulnerability scanner with penetration testing tools and security assessment reports.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Kali Linux</span>
+                            <span class="tech-tag">Nmap</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="AR Learning Platform" data-ar="منصة التعلم بالواقع المعزز">AR Learning Platform</h3>
+                        <p class="project-description" data-en="Immersive educational app using augmented reality for interactive learning experiences." data-ar="تطبيق تعليمي غامر يستخدم الواقع المعزز لتجارب التعلم التفاعلية.">Immersive educational app using augmented reality for interactive learning experiences.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">ARCore</span>
+                            <span class="tech-tag">C#</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cube"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Blockchain Explorer" data-ar="مستكشف البلوك تشين">Blockchain Explorer</h3>
+                        <p class="project-description" data-en="Real-time blockchain transaction explorer with smart contract analysis and crypto portfolio tracking." data-ar="مستكشف معاملات البلوك تشين في الوقت الفعلي مع تحليل العقود الذكية وتتبع محفظة العملات المشفرة.">Real-time blockchain transaction explorer with smart contract analysis and crypto portfolio tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Web3.js</span>
+                            <span class="tech-tag">Ethereum</span>
+                            <span class="tech-tag">Solidity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-satellite"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="IoT Device Manager" data-ar="مدير أجهزة إنترنت الأشياء">IoT Device Manager</h3>
+                        <p class="project-description" data-en="Centralized platform for managing and monitoring IoT devices with real-time data visualization." data-ar="منصة مركزية لإدارة ومراقبة أجهزة إنترنت الأشياء مع تصور البيانات في الوقت الفعلي.">Centralized platform for managing and monitoring IoT devices with real-time data visualization.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">MQTT</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Raspberry Pi</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="AI Art Generator" data-ar="مولد الفن بالذكاء الاصطناعي">AI Art Generator</h3>
+                        <p class="project-description" data-en="Creative AI tool that generates unique digital artwork using machine learning algorithms." data-ar="أداة ذكاء اصطناعي إبداعية تولد أعمال فنية رقمية فريدة باستخدام خوارزميات التعلم الآلي.">Creative AI tool that generates unique digital artwork using machine learning algorithms.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">GAN</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Multiplayer Game Engine" data-ar="محرك ألعاب متعددة اللاعبين">Multiplayer Game Engine</h3>
+                        <p class="project-description" data-en="Real-time multiplayer game engine with physics simulation and advanced networking capabilities." data-ar="محرك ألعاب متعددة اللاعبين في الوقت الفعلي مع محاكاة الفيزياء وقدرات الشبكات المتقدمة.">Real-time multiplayer game engine with physics simulation and advanced networking capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WebRTC</span>
+                            <span class="tech-tag">Three.js</span>
+                            <span class="tech-tag">Socket.io</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Chatbot Framework" data-ar="إطار عمل روبوت المحادثة">Chatbot Framework</h3>
+                        <p class="project-description" data-en="Intelligent chatbot framework with natural language processing and machine learning integration." data-ar="إطار عمل روبوت محادثة ذكي مع معالجة اللغة الطبيعية وتكامل التعلم الآلي.">Intelligent chatbot framework with natural language processing and machine learning integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Cloud Migration Tool" data-ar="أداة نقل السحابة">Cloud Migration Tool</h3>
+                        <p class="project-description" data-en="Automated cloud migration platform with cost optimization and performance monitoring features." data-ar="منصة نقل سحابي مؤتمتة مع ميزات تحسين التكلفة ومراقبة الأداء.">Automated cloud migration platform with cost optimization and performance monitoring features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AWS</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">Kubernetes</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="mobile">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-heartbeat"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Health Monitoring App" data-ar="تطبيق مراقبة الصحة">Health Monitoring App</h3>
+                        <p class="project-description" data-en="Comprehensive health tracking app with AI-powered insights and telemedicine integration." data-ar="تطبيق تتبع صحي شامل مع رؤى مدعومة بالذكاء الاصطناعي وتكامل الطب عن بُعد.">Comprehensive health tracking app with AI-powered insights and telemedicine integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React Native</span>
+                            <span class="tech-tag">HealthKit</span>
+                            <span class="tech-tag">ML Kit</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-search"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Search Engine Optimizer" data-ar="محسن محركات البحث">Search Engine Optimizer</h3>
+                        <p class="project-description" data-en="Advanced SEO analysis tool with keyword research, competitor analysis, and performance tracking." data-ar="أداة تحليل SEO متقدمة مع بحث الكلمات المفتاحية وتحليل المنافسين وتتبع الأداء.">Advanced SEO analysis tool with keyword research, competitor analysis, and performance tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Scrapy</span>
+                            <span class="tech-tag">Elasticsearch</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Password Manager" data-ar="مدير كلمات المرور">Password Manager</h3>
+                        <p class="project-description" data-en="Secure password management system with end-to-end encryption and biometric authentication." data-ar="نظام إدارة كلمات مرور آمن مع تشفير من طرف إلى طرف ومصادقة بيومترية.">Secure password management system with end-to-end encryption and biometric authentication.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">AES-256</span>
+                            <span class="tech-tag">WebAuthn</span>
+                            <span class="tech-tag">Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Financial Analytics Platform" data-ar="منصة التحليل المالي">Financial Analytics Platform</h3>
+                        <p class="project-description" data-en="Real-time financial data analysis platform with predictive modeling and risk assessment tools." data-ar="منصة تحليل البيانات المالية في الوقت الفعلي مع النمذجة التنبؤية وأدوات تقييم المخاطر.">Real-time financial data analysis platform with predictive modeling and risk assessment tools.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">D3.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <i class="fas fa-video"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title" data-en="Video Streaming Platform" data-ar="منصة بث الفيديو">Video Streaming Platform</h3>
+                        <p class="project-description" data-en="High-performance video streaming platform with adaptive bitrate and global CDN integration." data-ar="منصة بث فيديو عالية الأداء مع معدل البت التكيفي وتكامل CDN العالمي.">High-performance video streaming platform with adaptive bitrate and global CDN integration.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">WebRTC</span>
+                            <span class="tech-tag">HLS</span>
+                            <span class="tech-tag">FFmpeg</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Skills & Expertise" data-ar="المهارات والخبرة">Skills & Expertise</h2>
+                <p class="section-subtitle" data-en="What I bring to the table" data-ar="ما أقدمه على الطاولة">What I bring to the table</p>
+            </div>
+            <div class="skills-content">
+                <div class="skills-categories">
+                    <div class="skill-category">
+                        <h3 class="category-title" data-en="Software Engineering" data-ar="هندسة البرمجيات">Software Engineering</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">System Design</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Algorithms & Data Structures</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Software Architecture</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Code Review & Testing</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title" data-en="Web Development" data-ar="تطوير الويب">Web Development</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Full-Stack Development</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React & Vue.js</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js & Express</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">RESTful APIs</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title" data-en="Cybersecurity & Kali Linux" data-ar="الأمن السيبراني وكالي لينكس">Cybersecurity & Kali Linux</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Penetration Testing</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Nmap & Network Scanning</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Metasploit Framework</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Wireshark & Traffic Analysis</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill-category">
+                        <h3 class="category-title" data-en="Programming Languages" data-ar="لغات البرمجة">Programming Languages</h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">C++</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="What People Say" data-ar="آراء الناس">What People Say</h2>
+                <p class="section-subtitle" data-en="Testimonials from clients and colleagues" data-ar="شهادات من العملاء والزملاء">Testimonials from clients and colleagues</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonial-card active">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Mohamed's work on our website was excellent. He delivered exactly what we needed on time and the quality was outstanding. Highly recommended for any web development project." data-ar="عمل محمد على موقعنا كان ممتازاً. قدم بالضبط ما نحتاجه في الوقت المحدد والجودة كانت متميزة. أنصح به بشدة لأي مشروع تطوير ويب.">Mohamed's work on our website was excellent. He delivered exactly what we needed on time and the quality was outstanding. Highly recommended for any web development project.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Ahmed Hassan" data-ar="أحمد حسن">Ahmed Hassan</h4>
+                                <p class="author-title" data-en="Business Owner" data-ar="صاحب عمل">Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Mohamed helped us create a beautiful online store. His attention to detail and creative solutions made our business look professional. The website works perfectly on all devices." data-ar="ساعدنا محمد في إنشاء متجر إلكتروني جميل. انتباهه للتفاصيل وحلوله الإبداعية جعلت عملنا يبدو مهنياً. الموقع يعمل بشكل مثالي على جميع الأجهزة.">Mohamed helped us create a beautiful online store. His attention to detail and creative solutions made our business look professional. The website works perfectly on all devices.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Fatima Al-Rashid" data-ar="فاطمة الراشد">Fatima Al-Rashid</h4>
+                                <p class="author-title" data-en="Store Manager" data-ar="مديرة متجر">Store Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="We needed a mobile app for our restaurant and Mohamed delivered beyond our expectations. The app is user-friendly and our customers love it. Great communication throughout the project." data-ar="احتجنا تطبيق موبايل لمطعمنا ومحمد قدم أكثر من توقعاتنا. التطبيق سهل الاستخدام وعملاؤنا يحبونه. تواصل رائع طوال المشروع.">We needed a mobile app for our restaurant and Mohamed delivered beyond our expectations. The app is user-friendly and our customers love it. Great communication throughout the project.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Omar Al-Mahmoud" data-ar="عمر المحمود">Omar Al-Mahmoud</h4>
+                                <p class="author-title" data-en="Restaurant Owner" data-ar="صاحب مطعم">Restaurant Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Mohamed created a simple but effective website for our small business. He understood our needs perfectly and delivered a clean, professional site that represents our brand well." data-ar="أنشأ محمد موقعاً بسيطاً وفعالاً لشركتنا الصغيرة. فهم احتياجاتنا تماماً وقدم موقعاً نظيفاً ومهنياً يمثل علامتنا التجارية بشكل جيد.">Mohamed created a simple but effective website for our small business. He understood our needs perfectly and delivered a clean, professional site that represents our brand well.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Layla Al-Zahra" data-ar="ليلى الزهراء">Layla Al-Zahra</h4>
+                                <p class="author-title" data-en="Marketing Coordinator" data-ar="منسقة تسويق">Marketing Coordinator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Working with Mohamed was a great experience. He fixed our website issues quickly and made it much faster. His technical knowledge and problem-solving skills are impressive." data-ar="العمل مع محمد كان تجربة رائعة. أصلح مشاكل موقعنا بسرعة وجعله أسرع بكثير. معرفته التقنية ومهاراته في حل المشاكل مثيرة للإعجاب.">Working with Mohamed was a great experience. He fixed our website issues quickly and made it much faster. His technical knowledge and problem-solving skills are impressive.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Khalid Al-Sayed" data-ar="خالد السيد">Khalid Al-Sayed</h4>
+                                <p class="author-title" data-en="IT Manager" data-ar="مدير تقنية المعلومات">IT Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Mohamed designed a beautiful portfolio website for our company. The modern design and smooth animations really impressed our clients. He's very creative and professional." data-ar="صمم محمد موقعاً إلكترونياً جميلاً لشركتنا. التصميم العصري والرسوم المتحركة السلسة أذهلت عملاءنا. إنه مبدع ومحترف جداً.">Mohamed designed a beautiful portfolio website for our company. The modern design and smooth animations really impressed our clients. He's very creative and professional.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Nour Al-Din" data-ar="نور الدين">Nour Al-Din</h4>
+                                <p class="author-title" data-en="Creative Director" data-ar="مدير إبداعي">Creative Director</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text" data-en="Mohamed helped us improve our online presence significantly. His suggestions for SEO and user experience were spot-on. Our website traffic increased by 200% after his optimizations." data-ar="ساعدنا محمد في تحسين وجودنا على الإنترنت بشكل كبير. اقتراحاته لتحسين محركات البحث وتجربة المستخدم كانت دقيقة. زادت حركة المرور على موقعنا بنسبة 200% بعد تحسيناته.">Mohamed helped us improve our online presence significantly. His suggestions for SEO and user experience were spot-on. Our website traffic increased by 200% after his optimizations.</p>
+                        <div class="testimonial-author">
+                            <div class="author-info">
+                                <h4 class="author-name" data-en="Youssef Al-Mansouri" data-ar="يوسف المنصوري">Youssef Al-Mansouri</h4>
+                                <p class="author-title" data-en="Digital Marketing Specialist" data-ar="أخصائي تسويق رقمي">Digital Marketing Specialist</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-navigation">
+                <button class="testimonial-nav prev" id="testimonial-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="testimonial-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                    <span class="dot" data-slide="3"></span>
+                    <span class="dot" data-slide="4"></span>
+                    <span class="dot" data-slide="5"></span>
+                    <span class="dot" data-slide="6"></span>
+                </div>
+                <button class="testimonial-nav next" id="testimonial-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-en="Get In Touch" data-ar="تواصل معي">Get In Touch</h2>
+                <p class="section-subtitle" data-en="Let's work together on your next project" data-ar="دعنا نعمل معاً على مشروعك القادم">Let's work together on your next project</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4 data-en="Phone" data-ar="الهاتف">Phone</h4>
+                            <p>01105898405</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p data-en="© 2024 Mohamed Essam Mahmoud. All rights reserved." data-ar="© 2024 محمد عصام محمود. جميع الحقوق محفوظة.">© 2024 Mohamed Essam Mahmoud. All rights reserved.</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Particle Background -->
+    <div class="particles-container" id="particles-container"></div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
